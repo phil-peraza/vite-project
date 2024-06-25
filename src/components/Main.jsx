@@ -1,6 +1,11 @@
+import './Main.css';
+
 function Main() {
     return(
-        <div>This if you first Vite project</div>
+    <div className='container'>
+        <p>This is you first Vite project</p>
+        <p>"Vite" means "quick" in French</p>
+        </div>
     );
 }
 
